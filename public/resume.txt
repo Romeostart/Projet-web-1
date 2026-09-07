@@ -1,15 +1,23 @@
-Alex Morgan
-Software Engineer
-New York / Remote
-alex.morgan@example.com
+Roméo Paris
+Futur apprenti informaticien · 16 ans
+Bulle · Fribourg · Suisse
+Romeo.paris321@gmail.com
++41 76 615 18 28
 
-SUMMARY
-Product-minded software engineer building dependable web products for teams with real work to do.
+OBJECTIF
+Intégrer un CFC d’informaticien en septembre 2027 et continuer à apprendre dans un environnement professionnel.
 
-SELECTED SKILLS
-TypeScript · React · Next.js · Node.js · SQL · Design systems · Testing · Accessibility
+PROJETS PERSONNELS
+Portfolio personnel — HTML, CSS, JavaScript.
+Bot Discord — Programmation, API, logique, automatisation.
+Projets Python — Logique, fonctions, fichiers.
+Linux & réseaux — Linux, systèmes, réseaux, machines virtuelles.
+Programmation Roblox — Luau, logique, scripts, création de jeux.
 
-SELECTED WORK
-Operations command center — A clearer daily view for a distributed support team.
-Portfolio system — A flexible publishing surface for readable case studies.
-Snake — A browser game focused on interaction details and responsive controls.
+COMPÉTENCES EN PROGRESSION
+Python · HTML / CSS · JavaScript · Linux · Réseaux · Luau
+
+PARCOURS
+Formation professionnelle dans le domaine de l’électronique.
+Stage à l’HFR Fribourg.
+FutureKids Fribourg — première découverte de la programmation et de la création numérique.
