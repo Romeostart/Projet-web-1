@@ -21,3 +21,6 @@ IT recruiters, hiring managers, and engineering leads evaluating a product-minde
 
 ## Constraints / must-nots
 Keep the experience direct, readable, mobile-friendly, and honest about what is implemented. Preserve the working preview runtime and use the existing web stack.
+- Responsive portfolio homepage with recruiter-focused hero, availability signal, selected work, about section, skills list, contact CTA, and footer navigation.
+- Added an endorsements section with two clearly marked quote placeholders and a note to replace them with approved recommendations.
+- Functional Snake game with keyboard/WASD input, touch-friendly direction buttons, score tracking, reset, collision handling, and game-over state.
