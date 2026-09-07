@@ -3,15 +3,15 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Alex Morgan — Software Engineer",
-  description: "Portfolio of Alex Morgan, a software engineer building dependable web products and thoughtful interfaces.",
+  title: "Roméo Paris — CV en ligne",
+  description: "CV en ligne de Roméo Paris, étudiant en CFC d’électronicien à la HEIA de Fribourg.",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className="min-h-dvh antialiased">
         {children}
         <Script src="https://cdn-chatly.vyro.ai/chatly-make/sites-script/make-preview-runtime.js" strategy="afterInteractive" />

@@ -8,38 +8,18 @@ const BOARD_SIZE = 16;
 type Point = { x: number; y: number };
 type Direction = "up" | "down" | "left" | "right";
 
-const directionVectors: Record<Direction, Point> = {
-  up: { x: 0, y: -1 },
-  down: { x: 0, y: 1 },
-  left: { x: -1, y: 0 },
-  right: { x: 1, y: 0 },
-};
-
-const opposite: Record<Direction, Direction> = {
-  up: "down",
-  down: "up",
-  left: "right",
-  right: "left",
-};
+const directionVectors: Record<Direction, Point> = { up: { x: 0, y: -1 }, down: { x: 0, y: 1 }, left: { x: -1, y: 0 }, right: { x: 1, y: 0 } };
+const opposite: Record<Direction, Direction> = { up: "down", down: "up", left: "right", right: "left" };
+const initialSnake: Point[] = [{ x: 7, y: 8 }, { x: 6, y: 8 }, { x: 5, y: 8 }];
 
 function randomFood(snake: Point[]) {
   const openCells: Point[] = [];
-  for (let y = 0; y < BOARD_SIZE; y += 1) {
-    for (let x = 0; x < BOARD_SIZE; x += 1) {
-      if (!snake.some((segment) => segment.x === x && segment.y === y)) {
-        openCells.push({ x, y });
-      }
-    }
-  }
+  for (let y = 0; y < BOARD_SIZE; y += 1) for (let x = 0; x < BOARD_SIZE; x += 1) if (!snake.some((segment) => segment.x === x && segment.y === y)) openCells.push({ x, y });
   return openCells[Math.floor(Math.random() * openCells.length)] ?? { x: 8, y: 8 };
 }
 
 export function SnakeGame() {
-  const [snake, setSnake] = useState<Point[]>([
-    { x: 7, y: 8 },
-    { x: 6, y: 8 },
-    { x: 5, y: 8 },
-  ]);
+  const [snake, setSnake] = useState<Point[]>(initialSnake);
   const [food, setFood] = useState<Point>({ x: 11, y: 8 });
   const [direction, setDirection] = useState<Direction>("right");
   const [queuedDirection, setQueuedDirection] = useState<Direction>("right");
@@ -47,11 +27,6 @@ export function SnakeGame() {
   const [status, setStatus] = useState<"ready" | "playing" | "over">("ready");
 
   const reset = useCallback(() => {
-    const initialSnake = [
-      { x: 7, y: 8 },
-      { x: 6, y: 8 },
-      { x: 5, y: 8 },
-    ];
     setSnake(initialSnake);
     setFood({ x: 11, y: 8 });
     setDirection("right");
@@ -60,26 +35,23 @@ export function SnakeGame() {
     setStatus("ready");
   }, []);
 
+  const startNewGame = useCallback(() => {
+    setSnake(initialSnake);
+    setFood({ x: 11, y: 8 });
+    setDirection("right");
+    setQueuedDirection("right");
+    setScore(0);
+    setStatus("playing");
+  }, []);
+
   const changeDirection = useCallback((nextDirection: Direction) => {
-    setQueuedDirection((currentDirection) => {
-      if (opposite[currentDirection] === nextDirection) return currentDirection;
-      return nextDirection;
-    });
-    setStatus((currentStatus) => (currentStatus === "ready" ? "playing" : currentStatus));
+    setQueuedDirection((currentDirection) => opposite[currentDirection] === nextDirection ? currentDirection : nextDirection);
+    setStatus((currentStatus) => currentStatus === "ready" ? "playing" : currentStatus);
   }, []);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      const keys: Record<string, Direction | undefined> = {
-        ArrowUp: "up",
-        w: "up",
-        ArrowDown: "down",
-        s: "down",
-        ArrowLeft: "left",
-        a: "left",
-        ArrowRight: "right",
-        d: "right",
-      };
+      const keys: Record<string, Direction | undefined> = { ArrowUp: "up", w: "up", ArrowDown: "down", s: "down", ArrowLeft: "left", a: "left", ArrowRight: "right", d: "right" };
       const nextDirection = keys[event.key];
       if (!nextDirection) return;
       event.preventDefault();
@@ -120,50 +92,10 @@ export function SnakeGame() {
 
   return (
     <div className="game-shell">
-      <div className="game-topline">
-        <div>
-          <p className="eyebrow">Playable demo</p>
-          <h3>Snake / classic rules</h3>
-        </div>
-        <div className="game-score" aria-live="polite">
-          <span>Score</span>
-          <strong>{score.toString().padStart(2, "0")}</strong>
-        </div>
-      </div>
-
-      <div className="game-board" role="application" aria-label="Snake game board">
-        {cells.map((cell) => {
-          const point = { x: cell % BOARD_SIZE, y: Math.floor(cell / BOARD_SIZE) };
-          const isSnake = snake.some((segment) => segment.x === point.x && segment.y === point.y);
-          const isHead = snake[0]?.x === point.x && snake[0]?.y === point.y;
-          const isFood = food.x === point.x && food.y === point.y;
-          return (
-            <span
-              className={`game-cell${isSnake ? " snake-cell" : ""}${isHead ? " snake-head" : ""}${isFood ? " food-cell" : ""}`}
-              key={`${point.x}-${point.y}`}
-            />
-          );
-        })}
-        {status !== "playing" && (
-          <div className="game-overlay">
-            <p>{status === "over" ? "Run complete" : "Ready when you are"}</p>
-            <Button onClick={() => changeDirection(direction)} size="sm">
-              {status === "over" ? "Play again" : "Start game"}
-            </Button>
-          </div>
-        )}
-      </div>
-
-      <div className="game-controls">
-        <div className="direction-pad" aria-label="Game controls">
-          <Button aria-label="Move up" onClick={() => changeDirection("up")} size="icon" variant="outline"><ArrowUp size={16} /></Button>
-          <Button aria-label="Move left" onClick={() => changeDirection("left")} size="icon" variant="outline"><ArrowLeft size={16} /></Button>
-          <Button aria-label="Move down" onClick={() => changeDirection("down")} size="icon" variant="outline"><ArrowDown size={16} /></Button>
-          <Button aria-label="Move right" onClick={() => changeDirection("right")} size="icon" variant="outline"><ArrowRight size={16} /></Button>
-        </div>
-        <Button onClick={reset} size="sm" variant="ghost"><RotateCcw size={15} /> Reset</Button>
-      </div>
-      <p className="game-hint">Use arrow keys or WASD · Avoid the walls · Collect the squares</p>
+      <div className="game-topline"><div><p className="eyebrow">Démo interactive</p><h3>Snake / règles classiques</h3></div><div className="game-score" aria-live="polite"><span>Score</span><strong>{score.toString().padStart(2, "0")}</strong></div></div>
+      <div className="game-board" role="application" aria-label="Jeu Snake"><div className="game-cells">{cells.map((cell) => { const point = { x: cell % BOARD_SIZE, y: Math.floor(cell / BOARD_SIZE) }; const isSnake = snake.some((segment) => segment.x === point.x && segment.y === point.y); const isHead = snake[0]?.x === point.x && snake[0]?.y === point.y; const isFood = food.x === point.x && food.y === point.y; return <span className={`game-cell${isSnake ? " snake-cell" : ""}${isHead ? " snake-head" : ""}${isFood ? " food-cell" : ""}`} key={`${point.x}-${point.y}`} />; })}</div>{status !== "playing" && <div className="game-overlay"><p>{status === "over" ? "Partie terminée" : "Prêt à jouer"}</p><Button onClick={status === "over" ? startNewGame : () => changeDirection(direction)} size="sm">{status === "over" ? "Rejouer" : "Commencer"}</Button></div>}</div>
+      <div className="game-controls"><div className="direction-pad" aria-label="Commandes du jeu"><Button aria-label="Monter" onClick={() => changeDirection("up")} size="icon" variant="outline"><ArrowUp size={16} /></Button><Button aria-label="Aller à gauche" onClick={() => changeDirection("left")} size="icon" variant="outline"><ArrowLeft size={16} /></Button><Button aria-label="Descendre" onClick={() => changeDirection("down")} size="icon" variant="outline"><ArrowDown size={16} /></Button><Button aria-label="Aller à droite" onClick={() => changeDirection("right")} size="icon" variant="outline"><ArrowRight size={16} /></Button></div><Button onClick={reset} size="sm" variant="ghost"><RotateCcw size={15} /> Réinitialiser</Button></div>
+      <p className="game-hint">Touches fléchées ou ZQSD · Évite les murs · Attrape les carrés</p>
     </div>
   );
 }
