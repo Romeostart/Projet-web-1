@@ -1,6 +1,6 @@
 ---
-name: "Alex Morgan Portfolio"
-description: "A recruiter-focused portfolio that presents Alex Morgan's engineering work, skills, contact details, résumé, and a playable Snake demo."
+name: "CV en ligne de Roméo Paris"
+description: "Un CV en ligne en français qui présente le parcours, la formation, les compétences et les coordonnées de Roméo Paris pour faciliter son recrutement."
 colors:
   background: "oklch(0.985 0.006 145)"
   foreground: "oklch(0.2 0.035 155)"
