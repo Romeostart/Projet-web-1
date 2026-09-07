@@ -3,8 +3,8 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Roméo Paris — CV en ligne",
-  description: "CV en ligne de Roméo Paris, étudiant en CFC d’électronicien à la HEIA de Fribourg.",
+  title: "Roméo Paris — Futur apprenti informaticien",
+  description: "Le portfolio de Roméo Paris, 16 ans, candidat à un CFC d’informaticien en septembre 2027 dans la région de Fribourg.",
 };
 
 export default function RootLayout({
