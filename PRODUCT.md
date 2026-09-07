@@ -22,7 +22,7 @@ Accueil orienté recrutement avec l’âge, la localisation, l’objectif CFC In
 
 ## Brand commitments & durable constraints
 
-Ne pas présenter Roméo comme développeur professionnel. Ne pas inventer de projets, compétences, liens GitHub ou recommandations. Garder un ton jeune, sérieux, curieux, motivé et honnête pour une candidature suisse à un CFC d’informaticien.
+Ne pas présenter Roméo comme développeur professionnel. Ne pas inventer de projets, compétences, liens GitHub ou recommandations. Garder un ton jeune, sérieux, curieux, motivé et honnête pour une candidature suisse à un CFC d’informaticien. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Les liens et contrôles interactifs changent de couleur au survol pour rendre les actions identifiables.
 
 - **This project already HAS a committed visual world — do NOT offer a design picker.** `.project/DESIGN_SYSTEM.md` records a direction someone decided on, and the code, tokens and components are built around it. Read it, inherit it, and make the requested change inside it. Dealing six alternative worlds here offers to throw away a working design system nobody asked you to replace.
 - **Tailoring is not redesigning.** "Make it about my business", new copy, a different logo, swapped imagery, a brand colour — all of that lands INSIDE the committed world. Change what was asked for and leave the direction alone.
