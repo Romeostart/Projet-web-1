@@ -1,6 +1,6 @@
 ---
 name: "CV en ligne de Roméo Paris"
-description: "Un CV en ligne en français qui présente le projet professionnel, les projets personnels et l’objectif de CFC d’informaticien de Roméo Paris."
+description: "Un portfolio professionnel en français pour candidater à un CFC d’informaticien en septembre 2027."
 colors:
   background: "oklch(0.985 0.006 145)"
   foreground: "oklch(0.2 0.035 155)"

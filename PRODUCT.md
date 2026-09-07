@@ -6,11 +6,11 @@
 
 ## What this is
 
-Un CV en ligne en français qui présente le projet professionnel, les projets personnels et l’objectif de CFC d’informaticien de Roméo Paris.
+Un portfolio professionnel en français pour candidater à un CFC d’informaticien en septembre 2027.
 
 ## What it enables
 
-Aider Roméo Paris à trouver une place d’apprentissage CFC d’informaticien pour septembre 2027 dans la région de Fribourg et alentours.
+Aider Roméo Paris à convaincre des entreprises formatrices de le rencontrer pour un apprentissage, un stage ou une journée de découverte.
 
 ## Primary user
 
@@ -18,11 +18,11 @@ Entreprises formatrices, recruteurs, responsables de stage et équipes informati
 
 ## What exists today
 
-Hero en français avec l’objectif professionnel : futur apprenti informaticien, 16 ans, Bulle/Fribourg. - Sections dédiées à la recherche d’apprentissage, aux projets personnels, aux domaines d’apprentissage, au parcours et à la présentation personnelle. - Projets présentés : portfolio personnel, bot Discord, projets Python, Linux & réseaux et programmation Roblox. - Bloc GitHub prêt à recevoir l’adresse réelle, sans faux lien tant qu’elle n’est pas fournie. - Téléchargement du CV PDF original fourni par l’utilisateur. - Snake en français avec redémarrage fonctionnel et passage à travers les murs façon Pac-Man.
+Accueil orienté recrutement avec l’âge, la localisation, l’objectif CFC Informatique · Septembre 2027 et les actions projets, CV et contact. - Section de recherche d’apprentissage avec les domaines d’intérêt : développement, systèmes, réseaux, support, automatisation et nouvelles technologies. - Cinq projets personnels présentés comme projets d’apprentissage avec objectif, technologies et notions travaillées. - Section En apprentissage avec des niveaux honnêtes : Débutant, Bases, Découverte et En progression. - Parcours, motivation, présentation personnelle, bloc GitHub bientôt disponible et téléchargement du CV PDF original. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et statut de projet d’apprentissage. - Contact limité à Bulle · Fribourg · Suisse, sans adresse personnelle affichée.
 
 ## Brand commitments & durable constraints
 
-Garder un ton simple, positif et honnête pour un jeune candidat. Ne pas inventer d’adresse GitHub, de recommandations ou d’expérience. Préserver le PDF original fourni par l’utilisateur et le fonctionnement du CV en ligne.
+Ne pas présenter Roméo comme développeur professionnel. Ne pas inventer de projets, compétences, liens GitHub ou recommandations. Garder un ton jeune, sérieux, curieux, motivé et honnête pour une candidature suisse à un CFC d’informaticien.
 
 - **This project already HAS a committed visual world — do NOT offer a design picker.** `.project/DESIGN_SYSTEM.md` records a direction someone decided on, and the code, tokens and components are built around it. Read it, inherit it, and make the requested change inside it. Dealing six alternative worlds here offers to throw away a working design system nobody asked you to replace.
 - **Tailoring is not redesigning.** "Make it about my business", new copy, a different logo, swapped imagery, a brand colour — all of that lands INSIDE the committed world. Change what was asked for and leave the direction alone.
@@ -35,7 +35,7 @@ Garder un ton simple, positif et honnête pour un jeune candidat. Ne pas invente
 
 ## Positioning
 
-Un CV en ligne en français qui présente le projet professionnel, les projets personnels et l’objectif de CFC d’informaticien de Roméo Paris.
+Un portfolio professionnel en français pour candidater à un CFC d’informaticien en septembre 2027.
 
 ## Operating Context
 
@@ -43,7 +43,7 @@ Responsive web, built unattended in one pass. Task mode: Experience.
 
 ## Evidence on Hand
 
-Hero en français avec l’objectif professionnel : futur apprenti informaticien, 16 ans, Bulle/Fribourg. - Sections dédiées à la recherche d’apprentissage, aux projets personnels, aux domaines d’apprentissage, au parcours et à la présentation personnelle. - Projets présentés : portfolio personnel, bot Discord, projets Python, Linux & réseaux et programmation Roblox. - Bloc GitHub prêt à recevoir l’adresse réelle, sans faux lien tant qu’elle n’est pas fournie. - Téléchargement du CV PDF original fourni par l’utilisateur. - Snake en français avec redémarrage fonctionnel et passage à travers les murs façon Pac-Man.
+Accueil orienté recrutement avec l’âge, la localisation, l’objectif CFC Informatique · Septembre 2027 et les actions projets, CV et contact. - Section de recherche d’apprentissage avec les domaines d’intérêt : développement, systèmes, réseaux, support, automatisation et nouvelles technologies. - Cinq projets personnels présentés comme projets d’apprentissage avec objectif, technologies et notions travaillées. - Section En apprentissage avec des niveaux honnêtes : Débutant, Bases, Découverte et En progression. - Parcours, motivation, présentation personnelle, bloc GitHub bientôt disponible et téléchargement du CV PDF original. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et statut de projet d’apprentissage. - Contact limité à Bulle · Fribourg · Suisse, sans adresse personnelle affichée.
 
 ## Product Principles
 
