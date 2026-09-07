@@ -22,7 +22,7 @@ Responsive portfolio homepage with recruiter-focused hero, availability signal, 
 
 ## Brand commitments & durable constraints
 
-Keep the experience direct, readable, mobile-friendly, and honest about what is implemented. Preserve the working preview runtime and use the existing web stack.
+Keep the experience direct, readable, mobile-friendly, and honest about what is implemented. Preserve the working preview runtime and use the existing web stack. - Responsive portfolio homepage with recruiter-focused hero, availability signal, selected work, about section, skills list, contact CTA, and footer navigation. - Added an endorsements section with two clearly marked quote placeholders and a note to replace them with approved recommendations. - Functional Snake game with keyboard/WASD input, touch-friendly direction buttons, score tracking, reset, collision handling, and game-over state.
 
 - **This project already HAS a committed visual world — do NOT offer a design picker.** `.project/DESIGN_SYSTEM.md` records a direction someone decided on, and the code, tokens and components are built around it. Read it, inherit it, and make the requested change inside it. Dealing six alternative worlds here offers to throw away a working design system nobody asked you to replace.
 - **Tailoring is not redesigning.** "Make it about my business", new copy, a different logo, swapped imagery, a brand colour — all of that lands INSIDE the committed world. Change what was asked for and leave the direction alone.
