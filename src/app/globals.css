@@ -193,3 +193,11 @@ h2 { max-width: 620px; margin-bottom: 0; color: var(--foreground); font-size: cl
 @media (max-width: 800px) { .site-nav { min-width: 0; overflow-x: auto; justify-content: flex-start; gap: 1rem; padding-inline: 0.3rem; scrollbar-width: none; }.site-nav::-webkit-scrollbar { display: none; }.header-cv { flex: 0 0 auto; }.interest-grid { grid-template-columns: 1fr; }.motivation-section { padding-bottom: 5rem; }.site-footer > div:nth-child(2) { align-items: start; flex-direction: column; gap: 0.35rem; } }
 @media (max-width: 480px) { .site-nav { order: 3; width: 100%; flex-basis: 100%; padding-bottom: 0.8rem; }.site-header { flex-wrap: wrap; padding-top: 0.8rem; }.site-header .wordmark { margin-right: auto; }.header-cv { order: 2; }.site-footer { flex-direction: column; gap: 1.1rem; }.site-footer > div:nth-child(2) { flex-direction: row; flex-wrap: wrap; } }
 @media (max-width: 480px) { .site-header { column-gap: 0; } .site-nav { max-width: 100%; } }
+.wordmark { transition: color 180ms var(--ease-out); }
+.wordmark:hover { color: var(--primary); }
+.github-link { display: flex; min-width: 180px; align-items: start; flex-direction: column; gap: 0.7rem; color: var(--primary-foreground); transition: color 180ms var(--ease-out), transform 180ms var(--ease-out); }
+.github-link:hover { color: var(--accent); transform: translateY(-2px); }
+.github-link small { color: oklch(0.7 0.025 145); font-family: var(--font-mono); font-size: 0.62rem; }
+.github-link .text-link { color: inherit; }
+.game-controls button { transition: background 180ms var(--ease-out), border-color 180ms var(--ease-out), color 180ms var(--ease-out), transform 180ms var(--ease-out); }
+.game-controls button:hover { border-color: var(--primary); background: var(--primary); color: var(--primary-foreground); transform: translateY(-2px); }

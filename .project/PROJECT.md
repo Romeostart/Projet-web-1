@@ -24,3 +24,5 @@ Entreprises formatrices, recruteurs, responsables de stage et équipes informati
 
 ## Constraints / must-nots
 Ne pas présenter Roméo comme développeur professionnel. Ne pas inventer de projets, compétences, liens GitHub ou recommandations. Garder un ton jeune, sérieux, curieux, motivé et honnête pour une candidature suisse à un CFC d’informaticien.
+- Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer.
+- Les liens et contrôles interactifs changent de couleur au survol pour rendre les actions identifiables.
