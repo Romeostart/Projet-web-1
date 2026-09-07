@@ -1,6 +1,6 @@
 ---
 name: "CV en ligne de Roméo Paris"
-description: "Un CV en ligne en français qui présente le parcours, la formation, les compétences et les coordonnées de Roméo Paris pour faciliter son recrutement."
+description: "Un CV en ligne en français qui présente le projet professionnel, les projets personnels et l’objectif de CFC d’informaticien de Roméo Paris."
 colors:
   background: "oklch(0.985 0.006 145)"
   foreground: "oklch(0.2 0.035 155)"
