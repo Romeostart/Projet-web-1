@@ -1,0 +1,124 @@
+DIRECTION CONCEPT SEED (key: f98a242c; mode: experience; source: api; approved pool: c3b204a1eed6; 306/564 human-approved; rerun with --scope direction --mode experience --from f98a242c --candidate-count 7 to reproduce this roll against this catalog revision)
+ASSIGNED INDEX: 5
+  After ordering the grounded directions by resonance, build candidate
+  5 of your own grounded list; the assignment never points at a
+  challenger. The assignment is the roll, not a suggestion: your top-ranked
+  direction is what every run would ship, so the script decides which grounded
+  direction gets built. Each direction joins a durable visual system to a
+  concrete expression for the requested first surface, decided as one. It must
+  survive the current task plus navigation, quiet and dense content,
+  interaction and state, and a substantially different future surface. In an
+  attended run, present the assigned direction fully committed and offer
+  re-roll. You may add ONE card for your top-ranked grounded candidate when
+  it is not the assigned direction, kicker IMPECCABLE’S PICK, with an honest risk line
+  naming its familiarity; one pick card, never a ranked lineup, and the pick
+  never takes the lead position. When the assignment IS your top candidate,
+  there is no pick card. Re-roll yourself only
+  on named factual grounds, when the assignment cannot carry the product's
+  truth or task; taste is never grounds.
+  The assignment exists to refuse the model's ranking rut, never to outrank
+  the user or the brief. Never expose assignment metadata in user-facing labels.
+CHALLENGERS:
+  1. A monitoring surface built as a depot destination blind: bias-cut courses of dyed duck cloth stacked in a roll stepping under one fixed window, where anything wrong is the course stopped mid-step, showing two half-legends meeting across a single seam.
+     SOURCE ID: operate-c-depot-blind-courses
+     CREATIVE SPARK: A blind lifted onto the depot bench at 4:40 a.m. and lit from behind: green duck cloth halted between two courses, the top half of one destination and the bottom half of the next meeting at one seam, every thread glowing through the chrome-yellow letters.
+     SYSTEM GRAMMAR:
+       - Palette/material: three dyes only: bottle-green duck cloth drenched, chrome-yellow legends, bleached calico carries all prose; foreign images are matted on cloth and never tinted.
+       - Type/composition: one condensed grotesque, caps, one size; panels cut on a 12-degree bias, type level inside; rank is inversion: the lead panel alone prints dark on pale cloth.
+       - Topology/navigation: content rides a roll of stacked cloth courses that step under one fixed window inset from the trim; a punched eyelet tape down one edge is the index.
+       - Controls/state: controls take no dye, only stitch, punch and relief; a fault stops its row mid-step, showing two half-legends over one seam; stale wears thin, dead bares the weave.
+       - Responsive/motion: nothing glides; every change snaps one course, overshoots, settles; narrow screens drop courses, never shrink type; lit from behind so the weave stays visible.
+     WEB LEVERAGE: Build the step for real: any changing cell is a strip translated in whole line-heights with a one-step overshoot, and a stalled half-step showing two clipped legends across a seam is the only error state.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/operate-c-depot-blind-courses.webp · hero https://impeccable.style/worlds/cards/operate-c-depot-blind-courses-hero.webp
+  2. a collider event display, particle tracks curving out of one frozen collision through onion rings of detector and into stacked calorimeter wedges
+     SOURCE ID: scientific-notation-particle-detector-event-display
+     CREATIVE SPARK: The event lands and the cross-section blooms: yellow tracks curl through the inner rings, two stiff blue lines punch straight to the muon chambers, and red energy bars stack in the calorimeter wedges like a sudden bar chart of violence.
+     SYSTEM GRAMMAR:
+       - Palette/material: near-black vacuum ground, detector rings in muted steel blue, tracks in signal yellow and cyan by particle type, red calorimeter bars for deposited energy
+       - Type/composition: spare technical grotesk labels pinned to tracks and wedges, momentum figures in tabular digits; the concentric ring section is the compositional law
+       - Topology/navigation: space is concentric, beamline at center; you move outward through detector layers and along individual tracks, one event held at a time
+       - Controls/state: select a track to isolate it and dim the rest; competing reconstruction hypotheses overlay as ghost tracks, confidence written as line weight
+       - Responsive/motion: the ring section stays whole on phones while wedges and figures move to drawers; rotation is inertial 3D
+     WEB LEVERAGE: WebGL renders thousands of curved tracks in one 3D scene, with drag rotation, zoom into detector layers, and picked tracks reporting momentum
+     QUALITY BAR: board https://impeccable.style/worlds/cards/scientific-notation-particle-detector-event-display.webp · hero https://impeccable.style/worlds/cards/scientific-notation-particle-detector-event-display-hero.webp
+  3. a utility patent drawing sheet, an invention exploded into numbered figures in ruled ink line, reference numerals tied to parts by curved leader lines, hatching standing in for every material, witnessed and dated in the margin
+     SOURCE ID: notation-diagram-systems-patent-drawing-sheet
+     CREATIVE SPARK: You unroll the sheet and Fig. 2 blooms into an exploded view, forty parts hanging on invisible threads, numeral 23 arcing on a curved leader to the one washer the whole claim depends on.
+     SYSTEM GRAMMAR:
+       - Palette/material: india ink line on white bond inside a single ruled border, section hatching as the only fill, one carmine annotation ink reserved for what is under examination
+       - Type/composition: Fig. numerals in open serif caps head each view, reference numerals hang at leader-line ends, the invention title runs along the sheet head in spaced caps
+       - Topology/navigation: figures are views of one invention; you move between elevation, section, and detail, and every part numeral links to its line in the specification
+       - Controls/state: selecting a numeral pulls its leader taut and thickens that part's outline, assembled and exploded are two states of one figure, granted sheets carry the dated seal
+       - Responsive/motion: sheets stack figure by figure on small screens with leaders redrawn to fit; motion is the explode and reassemble along dashed axis lines
+     WEB LEVERAGE: svg leader lines and hatch patterns redraw responsively while an animated transform explodes assemblies along their axes
+     QUALITY BAR: board https://impeccable.style/worlds/cards/notation-diagram-systems-patent-drawing-sheet.webp · hero https://impeccable.style/worlds/cards/notation-diagram-systems-patent-drawing-sheet-hero.webp
+  4. a kaiju-era emergency broadcast graphic, brush-weight kanji title cards over roman subtitles, red and white civil-defense stripes, evacuation maps with bold arrows, newsreel monochrome cut with full-color alarm frames
+     SOURCE ID: pop-culture-shelf-kaiju-broadcast-alert
+     CREATIVE SPARK: the picture cuts from gray newsreel to a striped frame; brush-stroke kanji fill the screen over a quiet roman subtitle, a map slides in with one thick arrow pointing away from the coast, and the announcer's calm makes it worse
+     SYSTEM GRAMMAR:
+       - Palette/material: newsreel gray monochrome as ground, civil-defense red and white stripes framing every alert, full color reserved for the alarm frame alone
+       - Type/composition: brush-weight kanji headlines over small spaced roman subtitles, centered with bureaucratic calm, evacuation arrows the heaviest strokes on the page
+       - Topology/navigation: broadcast order rules the sequence: title card, map, instruction, in fixed succession; the map's bold arrows are the only wayfinding that matters
+       - Controls/state: routine notices stay in calm gray bureaucracy, escalation adds the striped border, the true alarm cuts to full color under a held siren card
+       - Responsive/motion: small screens crop to the headline and one arrow; motion is hard broadcast cuts and a slow stripe crawl
+     WEB LEVERAGE: css repeating-linear-gradient draws the civil-defense stripes with an animation crawling them, filter grayscale holding the newsreel ground
+     QUALITY BAR: board https://impeccable.style/worlds/cards/pop-culture-shelf-kaiju-broadcast-alert.webp · hero https://impeccable.style/worlds/cards/pop-culture-shelf-kaiju-broadcast-alert-hero.webp
+  5. a multiplane cel-animation dawn, where hand-painted forest planes slide at different speeds and the camera sinks through mist toward a lit cottage
+     SOURCE ID: cinema-cinematography-editing-multiplane-cel-dawn
+     CREATIVE SPARK: The nearest ferns blur past, the middle forest drifts, the far ridge barely breathes: five paintings pretending, perfectly, to be one morning.
+     SYSTEM GRAMMAR:
+       - Palette/material: gouache forest greens and mist blue-gray planes over a deep umber ground, the cottage window's lamp amber as the single active accent
+       - Type/composition: hand-painted title-card serifs held on their own clear cel, text always on the nearest plane, composition banded by painted depth layers
+       - Topology/navigation: scenes are stacked painted planes; travel is camera movement through layers, not page swaps.
+       - Controls/state: focus racks between planes; interactive elements live on their own cel above the painting.
+       - Responsive/motion: plane count reduces gracefully on phones; parallax follows scroll and freezes into a full composition under
+     WEB LEVERAGE: Scroll-linked parallax planes with real painted-texture assets and rack-focus blur via CSS filters.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/cinema-cinematography-editing-multiplane-cel-dawn.webp · hero https://impeccable.style/worlds/cards/cinema-cinematography-editing-multiplane-cel-dawn-hero.webp
+  6. a red-hot raku vessel lifted into smoke and combustible leaves, where thermal shock, carbon, and exposed clay create an unrehearsed black-white skin
+     SOURCE ID: clay-ceramics-fracture-raku-smoke-flash
+     CREATIVE SPARK: Tongs lift the orange bowl into a bed of leaves; smoke folds over it, and when the lid opens the glaze shines silver against soot-black clay.
+     SYSTEM GRAMMAR:
+       - Palette/material: soot-black carbonized clay as the ground, crackled silver-white glaze as the body surface, ember orange reserved for the still-hot active vessel
+       - Type/composition: rough brush-stroke marks paired with a quiet grotesk for data, stage labels stacked like kiln logs, asymmetry accepted as the compositional law
+       - Topology/navigation: Follow vessel regions through glaze coverage, smoke contact, reduction, and crack response.
+       - Controls/state: Fire, expose, cover, cool, and reveal with hot, reducing, carbonized, cracked, and cleaned states.
+       - Responsive/motion: Present the firing as deliberate stages and provide still material maps for every result.
+     WEB LEVERAGE: A probabilistic surface process can make conditions consequential while preserving exact input and outcome records.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/clay-ceramics-fracture-raku-smoke-flash.webp · hero https://impeccable.style/worlds/cards/clay-ceramics-fracture-raku-smoke-flash-hero.webp
+Fuse each challenger before judging it: the challenger supplies the form
+  and its system grammar, the product supplies every fact, and clarity wins
+  conflicts. Weigh the fused result against the assigned direction on exactly
+  two axes, audience identification and product clarity. Losing to strong
+  grounded material is a valid outcome; beating a thin or tool-monoculture
+  list is the point. A fused challenger that wins both axes becomes the build.
+  Close the weighing with a verdict per challenger, decided before any
+  borrowing is considered: wins (beats the assigned direction on both axes),
+  competitive (holds one axis), or declined (loses both). A declined
+  challenger is not spent: name the one discipline of its system the assigned
+  direction lacks, and raise the assigned direction to match before
+  presenting it. A donation transfers ambition and system discipline, never
+  the challenger's clothes; one world owns the page. Write each raise as its
+  own named line on the presented direction, and carry every verdict, kept
+  line, and raise into the decision page payload.
+When you can view images, open the QUALITY BAR board and hero for any
+challenger you weigh seriously and for the world you build. They exist as a
+craft bar, the finish level and commitment the build is expected to reach,
+never as a mockup to copy; your surface serves this product, not that render.
+PRODUCT.md and explicit incumbent brand commitments constrain every direction.
+The seed never chooses exact colors, fonts, tokens, or a user preference, and
+it never permits the world and first surface to be selected independently.
+The CREATIVE SPARK is a complete visual system, not a theme or decorative
+reference. Translate every supplied system rule into the product: palette and
+material, type and composition, topology, controls and states, and adaptation.
+Keep the source's visible character, scale, rhythm, and interaction instead of
+reducing vivid grammar to generic nouns. When the source is already a credible
+interface language, commit to it across navigation, content, controls, and
+states. Otherwise keep a literal carrier only when it becomes functional.
+Ambitious motion, spatial media, or interaction is welcome when it strengthens
+the product without weakening semantics, performance, or fallback behavior.
+AFTER THE CHOICE, run exactly one command and follow what it prints (do not suppress its output; do not write page code before it):
+  node ../opt/impeccable/.codex/skills/impeccable/scripts/build-phase.mjs start --direction f98a242c --kind <assigned|pick|challenger|canon> [--chosen <challenger-id>]
+  It records the choice (anonymous: card kind plus catalog id; skipped under DO_NOT_TRACK / IMPECCABLE_NO_TELEMETRY) and opens the build phases: on a comp-led build the comp round is the first gate (three comps, one approved) and no page code is written before it closes; on a code-led build it prints the contract step. A build without this state file is a build the finish reviewer treats as having skipped the round.
+A user- or brief-pinned decision beats the roll, always.
+ASSIGNED INDEX (restated for truncated readers): 5. Build candidate
+5 of your own grounded list; seed key f98a242c.

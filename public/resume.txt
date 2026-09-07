@@ -1,0 +1,15 @@
+Alex Morgan
+Software Engineer
+New York / Remote
+alex.morgan@example.com
+
+SUMMARY
+Product-minded software engineer building dependable web products for teams with real work to do.
+
+SELECTED SKILLS
+TypeScript · React · Next.js · Node.js · SQL · Design systems · Testing · Accessibility
+
+SELECTED WORK
+Operations command center — A clearer daily view for a distributed support team.
+Portfolio system — A flexible publishing surface for readable case studies.
+Snake — A browser game focused on interaction details and responsive controls.

@@ -1,22 +1,23 @@
-<!-- OWNER: Build (with the user) · READERS: every agent · READ THIS FIRST -->
-# {{PROJECT_NAME}}
+# Alex Morgan Portfolio
 
-**One-liner:** {{what it is, in one sentence}}
+**One-liner:** A recruiter-focused portfolio that presents Alex Morgan's engineering work, skills, contact details, résumé, and a playable Snake demo.
 
 ## Goal
-{{the outcome the user actually wants}}
+Help IT recruiters quickly understand Alex's strengths, see proof of work, and start a conversation.
 
 ## Target users
-{{who it's for}}
+IT recruiters, hiring managers, and engineering leads evaluating a product-minded software engineer.
 
 ## Status
-- Stage: {{idea | building | live}}
-- Live URL: {{url or —}}
-- Repo: {{repo or —}}
+- Stage: building
+- Live URL: —
+- Repo: —
 
 ## What exists today
-<!-- Kept current by the Build agent after each build -->
-{{high-level list of built features}}
+- Responsive portfolio homepage with recruiter-focused hero, availability signal, selected work, about section, skills list, contact CTA, and footer navigation.
+- Functional Snake game with keyboard/WASD input, touch-friendly direction buttons, score tracking, reset, collision handling, and game-over state.
+- Downloadable résumé text file linked from the hero.
+- Category-standard visual treatment using a white and pale-green canvas, deep evergreen typography, mint/sand/blue project cards, and restrained rounded surfaces.
 
 ## Constraints / must-nots
-{{anything every agent must respect — brand rules, no-gos, tech limits}}
+Keep the experience direct, readable, mobile-friendly, and honest about what is implemented. Preserve the working preview runtime and use the existing web stack.

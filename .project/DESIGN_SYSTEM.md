@@ -1,30 +1,26 @@
-<!-- OWNER: Design / Build · READERS: Build, Landing, SEO -->
 # Design System
 
-The **committed** visual direction. Build / Landing / Design MUST follow this so the
-product stays consistent. Change it deliberately, and commit the change.
-
 ## Direction
-{{one-line aesthetic — e.g. "clean editorial, trust-blue, generous whitespace"}}
+Category-standard recruiter portfolio: clear editorial hierarchy, proof-led content, and friendly utility.
 
 ## Palette
 | Token | Value |
 |-------|-------|
-| background | {{#fff}} |
-| surface | {{}} |
-| text / muted | {{}} |
-| border | {{}} |
-| primary | {{}} |
-| accent | {{}} |
-| success / warning / danger | {{}} |
+| background | Pale green-white |
+| surface | White |
+| text / muted | Deep evergreen / soft sage |
+| border | Light sage |
+| primary | Evergreen |
+| accent | Soft mint |
+| success / warning / danger | Evergreen / warm sand / muted red |
 
 ## Typography
-- Headings: {{font}}
-- Body: {{font}}
+- Headings: bold geometric sans with tight tracking and compact line-height
+- Body: neutral system sans with readable line-height
 
 ## Tokens & primitives
-- Radius / shadow / spacing rhythm: {{}}
-- Shared components: {{Button, Card, Input, …}}
+- Radius / shadow / spacing rhythm: 12–16px corners, low soft shadows, generous vertical sections, 3-column proof grid collapsing to one column on phones.
+- Shared components: shadcn Button for game controls and interactive actions, lucide icons, semantic project cards, responsive section frame.
 
 ## Voice & tone
-{{how the product speaks — e.g. "plain, confident, no hype"}}
+Plain, confident, specific, and no hype.

@@ -1,0 +1,124 @@
+DIRECTION CONCEPT SEED (key: a9cf5a53; mode: experience; source: api; approved pool: c3b204a1eed6; 306/564 human-approved; rerun with --scope direction --mode experience --from a9cf5a53 --candidate-count 7 to reproduce this roll against this catalog revision)
+ASSIGNED INDEX: 6
+  After ordering the grounded directions by resonance, build candidate
+  6 of your own grounded list; the assignment never points at a
+  challenger. The assignment is the roll, not a suggestion: your top-ranked
+  direction is what every run would ship, so the script decides which grounded
+  direction gets built. Each direction joins a durable visual system to a
+  concrete expression for the requested first surface, decided as one. It must
+  survive the current task plus navigation, quiet and dense content,
+  interaction and state, and a substantially different future surface. In an
+  attended run, present the assigned direction fully committed and offer
+  re-roll. You may add ONE card for your top-ranked grounded candidate when
+  it is not the assigned direction, kicker IMPECCABLE’S PICK, with an honest risk line
+  naming its familiarity; one pick card, never a ranked lineup, and the pick
+  never takes the lead position. When the assignment IS your top candidate,
+  there is no pick card. Re-roll yourself only
+  on named factual grounds, when the assignment cannot carry the product's
+  truth or task; taste is never grounds.
+  The assignment exists to refuse the model's ranking rut, never to outrank
+  the user or the brief. Never expose assignment metadata in user-facing labels.
+CHALLENGERS:
+  1. a wiener werkstätte metalwork showroom, where hammered silver baskets punched with perfect square holes stack luxury into strict black-and-white lattices
+     SOURCE ID: design-canon-hoffmann-gridsmith-showroom
+     CREATIVE SPARK: In a showroom off the Ringstrasse, silver baskets pierced with rows of perfect square holes catch the gaslight, and the walls themselves look drawn with a ruler dipped in black lacquer.
+     SYSTEM GRAMMAR:
+       - Palette/material: gallery-white ground ruled in lacquer black, hammered-silver sheen on frames and edges, the active cell filled solid black within its pierced row
+       - Type/composition: ver sacrum roman capitals letterspaced inside ruled cartouches, square-unit borders framing every text block, symmetry held strictly to the lattice
+       - Topology/navigation: content sits inside square-punched lattice frames; sections are nested caskets that open along strict orthogonal seams
+       - Controls/state: every control is one square cell in a hammered border; active fills the cell solid black, idle leaves it pierced open
+       - Responsive/motion: the lattice re-counts its squares per viewport but never stretches one; motion is a slow silver glint
+     WEB LEVERAGE: CSS grid with aspect-ratio-locked square cells and SVG lattice masks keep the punched geometry exact at every viewport
+     QUALITY BAR: board https://impeccable.style/worlds/cards/design-canon-hoffmann-gridsmith-showroom.webp · hero https://impeccable.style/worlds/cards/design-canon-hoffmann-gridsmith-showroom-hero.webp
+  2. a jazz session sleeve where a duotone photograph is cropped hard to one corner, the artist name set in tight sans caps at an unexpected angle, and a wide band of flat color carrying the rest of the field
+     SOURCE ID: posters-covers-sleeves-blue-note-session-sleeve
+     CREATIVE SPARK: A photograph of a man at a piano, cropped so hard he is almost out of frame, and the rest of the sleeve is one flat orange with his name across it at eleven degrees.
+     SYSTEM GRAMMAR:
+       - Palette/material: a duotone photograph in ink black and one warm spot color, set against a wide flat field of the same spot at full strength
+       - Type/composition: tight sans caps set at a deliberate angle, a session photograph cropped hard to one corner, and generous flat color elsewhere
+       - Topology/navigation: the flat band is the constant and the photograph moves within it, so navigation recrops rather than repaginating
+       - Controls/state: controls are title lines, the active one reverses out of the band, and inactive ones sit in the photograph's shadow
+       - Responsive/motion: the flat band absorbs reflow while the crop holds its tension, and motion is a band color change between sessions
+     WEB LEVERAGE: responsive crop that preserves compositional tension, a flat band as a css custom property, and per-session color transitions
+     QUALITY BAR: board https://impeccable.style/worlds/cards/posters-covers-sleeves-blue-note-session-sleeve.webp · hero https://impeccable.style/worlds/cards/posters-covers-sleeves-blue-note-session-sleeve-hero.webp
+  3. A working plate where every element registers against one off-centre calibrated rail, colour survives only as hairline emission lines of seven wavelengths standing on a procedurally banded charcoal continuum, and state is carried in line height, dash and doubling rather than hue.
+     SOURCE ID: operate-c-emission-line-rail
+     CREATIVE SPARK: A glass spectrogram lying on a low viewing box at three in the morning: a grey continuum crossed by needle-thin bright lines, every legend at the same tiny size, one sodium pair doubled and standing brighter than anything near it.
+     SYSTEM GRAMMAR:
+       - Palette/material: procedural charcoal continuum with bone legends; colour only as hairlines at 405/436/486/546/589/615/656nm; foreign images mat into graphite, edged by one line.
+       - Type/composition: one grotesque at a single size, ranked by tracking and ink; all matter hangs off one off-centre rail, and prose only ever sits in bone on flat ash plates.
+       - Topology/navigation: every destination is a tick on the rail; the open one blooms into a giant plate above it, the rest stay hairline stubs, and nothing ever leaves the rail.
+       - Controls/state: state is line form, not hue: full-height solid live, dashed pending, half-height stale, struck disabled; a doubled line, sodium yellow, outranks its neighbours.
+       - Responsive/motion: a landing line slides to its position and damps with one overshoot; narrow widths shorten the band shown, never the type; sheets behind the top one dim a step.
+     WEB LEVERAGE: Build the rail as one custom property mapping any value to an x position; every mark is a 1px absolutely placed line whose state is height, dash pattern and doubling, settled by a spring, never by colour.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/operate-c-emission-line-rail.webp · hero https://impeccable.style/worlds/cards/operate-c-emission-line-rail-hero.webp
+  4. a broadcast teletext magazine, three-digit pages of block-mosaic graphics and double-height headers held in a 40 by 24 character grid on black
+     SOURCE ID: broadcast-programming-teletext-service
+     CREATIVE SPARK: You key 302 and the header counts pages in the corner; the screen blinks and a football score builds itself from cyan blocks on black, and behind the quiz question an answer waits invisible until your thumb finds REVEAL.
+     SYSTEM GRAMMAR:
+       - Palette/material: the fixed broadcast eight on flat black, white for body text, yellow for headlines, cyan for live figures, red reserved for alerts and REVEAL answers
+       - Type/composition: one bitmap face in a rigid 40 by 24 cell grid, double-height rows for section headers, block-mosaic sixels drawing every graphic from the same cells
+       - Topology/navigation: every page holds a three-digit address keyed directly; magazines group by hundreds and subpages rotate on a timed carousel you can hold
+       - Controls/state: keying digits is the whole input; loading counts page numbers in the header, hidden answers wait behind REVEAL, held subpages show a HOLD flag
+       - Responsive/motion: the 40-cell row is sacred, small screens scale the cell rather than reflow; motion is subpage rotation and blink, both stoppable to a held still
+     WEB LEVERAGE: ch-unit CSS grid and a bitmap face keep the 40 by 24 cell lattice exact; keyboard digits route pages and a REVEAL state toggles hidden spans
+     QUALITY BAR: board https://impeccable.style/worlds/cards/broadcast-programming-teletext-service.webp · hero https://impeccable.style/worlds/cards/broadcast-programming-teletext-service-hero.webp
+  5. a jacquard brocade woven from punched instructions, where thousands of binary thread choices resolve into a gold bird across midnight silk
+     SOURCE ID: textiles-weave-drape-fashion-jacquard-punched-brocade
+     CREATIVE SPARK: Rows of tiny holes pass above the loom; beneath them, gold weft slowly gathers into a bird whose wing spans hundreds of separate thread decisions.
+     SYSTEM GRAMMAR:
+       - Palette/material: midnight blue silk as ground, gold weft floats as the accent motif, punch-card cream for instruction rows, warp shadow in near-black ink
+       - Type/composition: monospaced ledger digits for card rows, motif titles in woven small caps, layout banded row by row like the loom's lift sequence
+       - Topology/navigation: Move between finished motif, weave row, card, and individual warp lift with full traceability.
+       - Controls/state: Punch, lift, throw, reverse, and compare with encoded, raised, woven, skipped, and corrected states.
+       - Responsive/motion: Present the loom as synchronized pattern and instruction rows and make every thread choice keyboard inspectable.
+     WEB LEVERAGE: A shared binary matrix can drive textile rendering, editing, and an exact accessible instruction representation.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-jacquard-punched-brocade.webp · hero https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-jacquard-punched-brocade-hero.webp
+  6. a hand-cranked paper menagerie of tabs, bellows, and pinned joints, where humble folds produce a surprising procession of motion
+     SOURCE ID: kinetic-sculpture-automata-crank-paper-menagerie
+     CREATIVE SPARK: The crank turns; a white fox bows, a crimson bird opens concertina wings, and their shadows cross on the paper wall behind them.
+     SYSTEM GRAMMAR:
+       - Palette/material: cut white paper on kraft board as the ground, charcoal cast shadow as body ink, one crimson fold reserved for the figure currently in motion
+       - Type/composition: hand-cut letterpress caps with visible tab and slot marks, captions on folded paper strips beneath each figure, one crank line ruling the base
+       - Topology/navigation: Advance through a procession while each figure opens into its own linkage and supporting details.
+       - Controls/state: Turn, pause, reverse, and inspect joints with folded, tensioned, extended, and resting states.
+       - Responsive/motion: Reduce the procession to one figure per viewport and provide illustrated keyframes beside every control.
+     WEB LEVERAGE: Pointer and keyboard input can drive a common crank timeline, synchronizing SVG cut-paper layers with accessible step descriptions.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/kinetic-sculpture-automata-crank-paper-menagerie.webp · hero https://impeccable.style/worlds/cards/kinetic-sculpture-automata-crank-paper-menagerie-hero.webp
+Fuse each challenger before judging it: the challenger supplies the form
+  and its system grammar, the product supplies every fact, and clarity wins
+  conflicts. Weigh the fused result against the assigned direction on exactly
+  two axes, audience identification and product clarity. Losing to strong
+  grounded material is a valid outcome; beating a thin or tool-monoculture
+  list is the point. A fused challenger that wins both axes becomes the build.
+  Close the weighing with a verdict per challenger, decided before any
+  borrowing is considered: wins (beats the assigned direction on both axes),
+  competitive (holds one axis), or declined (loses both). A declined
+  challenger is not spent: name the one discipline of its system the assigned
+  direction lacks, and raise the assigned direction to match before
+  presenting it. A donation transfers ambition and system discipline, never
+  the challenger's clothes; one world owns the page. Write each raise as its
+  own named line on the presented direction, and carry every verdict, kept
+  line, and raise into the decision page payload.
+When you can view images, open the QUALITY BAR board and hero for any
+challenger you weigh seriously and for the world you build. They exist as a
+craft bar, the finish level and commitment the build is expected to reach,
+never as a mockup to copy; your surface serves this product, not that render.
+PRODUCT.md and explicit incumbent brand commitments constrain every direction.
+The seed never chooses exact colors, fonts, tokens, or a user preference, and
+it never permits the world and first surface to be selected independently.
+The CREATIVE SPARK is a complete visual system, not a theme or decorative
+reference. Translate every supplied system rule into the product: palette and
+material, type and composition, topology, controls and states, and adaptation.
+Keep the source's visible character, scale, rhythm, and interaction instead of
+reducing vivid grammar to generic nouns. When the source is already a credible
+interface language, commit to it across navigation, content, controls, and
+states. Otherwise keep a literal carrier only when it becomes functional.
+Ambitious motion, spatial media, or interaction is welcome when it strengthens
+the product without weakening semantics, performance, or fallback behavior.
+AFTER THE CHOICE, run exactly one command and follow what it prints (do not suppress its output; do not write page code before it):
+  node ../opt/impeccable/.codex/skills/impeccable/scripts/build-phase.mjs start --direction a9cf5a53 --kind <assigned|pick|challenger|canon> [--chosen <challenger-id>]
+  It records the choice (anonymous: card kind plus catalog id; skipped under DO_NOT_TRACK / IMPECCABLE_NO_TELEMETRY) and opens the build phases: on a comp-led build the comp round is the first gate (three comps, one approved) and no page code is written before it closes; on a code-led build it prints the contract step. A build without this state file is a build the finish reviewer treats as having skipped the round.
+A user- or brief-pinned decision beats the roll, always.
+ASSIGNED INDEX (restated for truncated readers): 6. Build candidate
+6 of your own grounded list; seed key a9cf5a53.

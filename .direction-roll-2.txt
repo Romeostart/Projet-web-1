@@ -1,0 +1,124 @@
+DIRECTION CONCEPT SEED (key: f303f818; mode: experience; source: api; approved pool: c3b204a1eed6; 306/564 human-approved; rerun with --scope direction --mode experience --from f303f818 --candidate-count 7 to reproduce this roll against this catalog revision)
+ASSIGNED INDEX: 5
+  After ordering the grounded directions by resonance, build candidate
+  5 of your own grounded list; the assignment never points at a
+  challenger. The assignment is the roll, not a suggestion: your top-ranked
+  direction is what every run would ship, so the script decides which grounded
+  direction gets built. Each direction joins a durable visual system to a
+  concrete expression for the requested first surface, decided as one. It must
+  survive the current task plus navigation, quiet and dense content,
+  interaction and state, and a substantially different future surface. In an
+  attended run, present the assigned direction fully committed and offer
+  re-roll. You may add ONE card for your top-ranked grounded candidate when
+  it is not the assigned direction, kicker IMPECCABLE’S PICK, with an honest risk line
+  naming its familiarity; one pick card, never a ranked lineup, and the pick
+  never takes the lead position. When the assignment IS your top candidate,
+  there is no pick card. Re-roll yourself only
+  on named factual grounds, when the assignment cannot carry the product's
+  truth or task; taste is never grounds.
+  The assignment exists to refuse the model's ranking rut, never to outrank
+  the user or the brief. Never expose assignment metadata in user-facing labels.
+CHALLENGERS:
+  1. the 1900 Du Bois data portraits, where hand-inked bars, spirals, and color fields turn hard statistics into unapologetically bold graphic argument
+     SOURCE ID: dubois-data-portraits
+     CREATIVE SPARK: A crimson spiral coils tighter than the page should allow, gold and black bars slam against hand-lettered captions, and one wandering line carries a population across fifty years.
+     SYSTEM GRAMMAR:
+       - Palette/material: aged cream board with saturated crimson, gold, emerald, and ink black laid down flat by hand
+       - Type/composition: hand-lettered small-caps captions; each chart invents the form its question needs: coiled spirals, wrapped bars, stepped squares
+       - Topology/navigation: Move by question, by chart form, and by year.
+       - Controls/state: Trace, unroll, and compare; a spiral unrolls into a bar to prove the same quantity.
+       - Responsive/motion: Charts redraw as if inked in one continuous stroke; small screens show one chart at a time at full bleed.
+     WEB LEVERAGE: SVG chart forms with an unroll transition between spiral and bar encodings of the same data
+     QUALITY BAR: board https://impeccable.style/worlds/cards/dubois-data-portraits.webp · hero https://impeccable.style/worlds/cards/dubois-data-portraits-hero.webp
+  2. an edo woodblock print coming together one color block at a time, the keyblock outline printed first and each pigment block registered against carved kento notches until the sheet is whole
+     SOURCE ID: graphic-worlds-publishing-ukiyoe-block-registration
+     CREATIVE SPARK: the outline lands first in black, a ghost of a wave with nothing inside it. then indigo drops in, then safflower, each one nudged against a carved notch, and on the fifth pull the sea is suddenly deep enough to fall into.
+     SYSTEM GRAMMAR:
+       - Palette/material: mineral indigo, safflower red, and clove brown on warm kozo paper, each color a flat sealed area bounded by a black keyblock line
+       - Type/composition: vertical title cartouches sit in the upper corners, publisher and censor seals cluster at one margin as small red furniture
+       - Topology/navigation: the sheet builds in registered layers, so moving deeper adds a block rather than a page, and the keyline never moves
+       - Controls/state: controls read as carved cartouches, an active state prints its color layer in, and an inactive one shows the keyline alone
+       - Responsive/motion: narrow frames drop pigment blocks in reverse carving order, and motion is the soft bokashi wipe of one field into another
+     WEB LEVERAGE: layered svg color plates composited over one keyline, a css gradient wipe for bokashi, and progressive reveal of each registered block
+     QUALITY BAR: board https://impeccable.style/worlds/cards/graphic-worlds-publishing-ukiyoe-block-registration.webp · hero https://impeccable.style/worlds/cards/graphic-worlds-publishing-ukiyoe-block-registration-hero.webp
+  3. an interactive type specimen, where dragging an axis slider morphs a whole grid of glyphs in real time
+     SOURCE ID: variable-font-specimen
+     CREATIVE SPARK: A single giant letter fills the screen. You drag the weight slider and it thickens from hairline to black under your finger, live. Below, a grid of every glyph breathes in step, and a monospace readout counts the axis values.
+     SYSTEM GRAMMAR:
+       - Palette/material: Near-white paper and ink black with one foundry accent; flat surfaces, generous negative space, no ornament so the letterforms carry everything.
+       - Type/composition: The specimen face at enormous display size against tiny monospace UI labels; a strict measure and baseline grid; hierarchy by scale contrast alone.
+       - Topology/navigation: Move by axis slider, by glyph cell, and by size and specimen view.
+       - Controls/state: Drag, type, and pin; moving an axis remaps every glyph on the page continuously and updates the live coordinate readout.
+       - Responsive/motion: reduced-motion snaps between named instances instead of animating the interpolation.
+     WEB LEVERAGE: Bind range inputs to CSS font-variation-settings through a custom property, so one slider drives font-variation across the entire glyph grid with no per-glyph JavaScript.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/variable-font-specimen.webp · hero https://impeccable.style/worlds/cards/variable-font-specimen-hero.webp
+  4. the seven-segment display family, bedside clocks, gas-station price totems, scoreboards, and microwave panels all speaking one eight-cell mask where unlit segments are designed too
+     SOURCE ID: signals-instruments-seven-segment-alarm-clock
+     CREATIVE SPARK: At 3am the bedroom hour hangs as four red digits; by noon the same alphabet quotes gasoline at two meters tall, and at the stadium the score slams from 98 to 100 with nothing sliding, segments simply dying and igniting.
+     SYSTEM GRAMMAR:
+       - Palette/material: lit segments in LED red, amber, or scoreboard green on matte near-black ground, unlit segments held as faint ghost cells; red glow owns the night register
+       - Type/composition: one eight-cell mask makes every glyph, digits ranked in fixed slots with the colon or decimal as its own cell; absence is drawn as deliberately as light
+       - Topology/navigation: the layout is a rigid mask of cells, from four bedside digits to a price totem's stack; place never moves, only which segments light
+       - Controls/state: modes cycle by held buttons, set digits blink while everything else holds; the flashing 12:00 of an unset clock is the canonical error state
+       - Responsive/motion: cells scale as whole units and never reflow mid-glyph; every change is an instant segment swap
+     WEB LEVERAGE: CSS grid and clip-path build a true segment mask with ghost cells, and a shared worker keeps blink phase synchronized across every open tab
+     QUALITY BAR: board https://impeccable.style/worlds/cards/signals-instruments-seven-segment-alarm-clock.webp · hero https://impeccable.style/worlds/cards/signals-instruments-seven-segment-alarm-clock-hero.webp
+  5. a vast Miura-fold sheet unfolding from a hand-sized packet, where one pull deploys a precise field of linked mountain and valley creases
+     SOURCE ID: paper-folds-pleats-deployable-miura-orbit-sheet
+     CREATIVE SPARK: A gold packet no larger than a book is tugged at two corners and opens in one breath into a rigid tessellated sail spanning the floor.
+     SYSTEM GRAMMAR:
+       - Palette/material: matte white sheet as ground, gold foil packet face as the accent, mountain creases scored in warm gray, valley creases in pale blue, body ink near-black
+       - Type/composition: aerospace spec mono for crease ids, a parallelogram grid ruling every block, headings folded along the tessellation's diagonal seams
+       - Topology/navigation: Move between compact packet, crease cell, linked row, and fully deployed sheet.
+       - Controls/state: Pull, lock, reverse, and inspect with folded, opening, deployed, misfolded, and collapsed states.
+       - Responsive/motion: Use stepped deployment on small screens and preserve the complete crease graph as an accessible diagram.
+     WEB LEVERAGE: Constraint-linked geometry can make one control propagate across the sheet while adaptive detail protects performance.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-miura-orbit-sheet.webp · hero https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-miura-orbit-sheet-hero.webp
+  6. a tensegrity column of carbon rods and red cord, where opposing forces make a rigid body appear to inhale and lengthen
+     SOURCE ID: kinetic-sculpture-automata-tensegrity-breathing-column
+     CREATIVE SPARK: The cords tighten in sequence; black rods float apart without touching, and the column rises as if drawing a slow breath.
+     SYSTEM GRAMMAR:
+       - Palette/material: matte carbon-black rods on a pale concrete ground, red cord as the tension accent, slack members dropping to ash gray
+       - Type/composition: engineering monospaced labels with force values, annotations pinned to nodes on leader lines, layout obeys the strut network not a page grid
+       - Topology/navigation: Expose a network of tension and compression paths, letting users trace any load to its counterforce.
+       - Controls/state: Pull, release, lock, and compare members while slack, balanced, stressed, and failed states are distinct.
+       - Responsive/motion: Flatten the column into a force diagram on compact screens and substitute before-after poses for continuous breathing.
+     WEB LEVERAGE: A constraint graph can drive both spatial geometry and a semantic force diagram from the same underlying state.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/kinetic-sculpture-automata-tensegrity-breathing-column.webp · hero https://impeccable.style/worlds/cards/kinetic-sculpture-automata-tensegrity-breathing-column-hero.webp
+Fuse each challenger before judging it: the challenger supplies the form
+  and its system grammar, the product supplies every fact, and clarity wins
+  conflicts. Weigh the fused result against the assigned direction on exactly
+  two axes, audience identification and product clarity. Losing to strong
+  grounded material is a valid outcome; beating a thin or tool-monoculture
+  list is the point. A fused challenger that wins both axes becomes the build.
+  Close the weighing with a verdict per challenger, decided before any
+  borrowing is considered: wins (beats the assigned direction on both axes),
+  competitive (holds one axis), or declined (loses both). A declined
+  challenger is not spent: name the one discipline of its system the assigned
+  direction lacks, and raise the assigned direction to match before
+  presenting it. A donation transfers ambition and system discipline, never
+  the challenger's clothes; one world owns the page. Write each raise as its
+  own named line on the presented direction, and carry every verdict, kept
+  line, and raise into the decision page payload.
+When you can view images, open the QUALITY BAR board and hero for any
+challenger you weigh seriously and for the world you build. They exist as a
+craft bar, the finish level and commitment the build is expected to reach,
+never as a mockup to copy; your surface serves this product, not that render.
+PRODUCT.md and explicit incumbent brand commitments constrain every direction.
+The seed never chooses exact colors, fonts, tokens, or a user preference, and
+it never permits the world and first surface to be selected independently.
+The CREATIVE SPARK is a complete visual system, not a theme or decorative
+reference. Translate every supplied system rule into the product: palette and
+material, type and composition, topology, controls and states, and adaptation.
+Keep the source's visible character, scale, rhythm, and interaction instead of
+reducing vivid grammar to generic nouns. When the source is already a credible
+interface language, commit to it across navigation, content, controls, and
+states. Otherwise keep a literal carrier only when it becomes functional.
+Ambitious motion, spatial media, or interaction is welcome when it strengthens
+the product without weakening semantics, performance, or fallback behavior.
+AFTER THE CHOICE, run exactly one command and follow what it prints (do not suppress its output; do not write page code before it):
+  node ../opt/impeccable/.codex/skills/impeccable/scripts/build-phase.mjs start --direction f303f818 --kind <assigned|pick|challenger|canon> [--chosen <challenger-id>]
+  It records the choice (anonymous: card kind plus catalog id; skipped under DO_NOT_TRACK / IMPECCABLE_NO_TELEMETRY) and opens the build phases: on a comp-led build the comp round is the first gate (three comps, one approved) and no page code is written before it closes; on a code-led build it prints the contract step. A build without this state file is a build the finish reviewer treats as having skipped the round.
+A user- or brief-pinned decision beats the roll, always.
+ASSIGNED INDEX (restated for truncated readers): 5. Build candidate
+5 of your own grounded list; seed key f303f818.
