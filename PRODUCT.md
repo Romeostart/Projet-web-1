@@ -1,12 +1,12 @@
 <!-- Generated from .project/PROJECT.md by the engine — do not run `impeccable init`, which would interview a user who isn't here. Edit .project/PROJECT.md; this file is regenerated from it. -->
-# CV en ligne de Roméo Paris
+# Portfolio de Roméo Paris
 
 **Platform:** Responsive web — Next.js, React, Tailwind. shadcn/ui and lucide are installed and available; the direction decides whether they fit or whether this surface needs its own vocabulary.
-**Task mode:** Operate (pass as `--mode operate` to any script)
+**Task mode:** Experience (pass as `--mode experience` to any script)
 
 ## What this is
 
-Un dossier de candidature en français, clair et vivant, pour aider Roméo Paris à convaincre une entreprise formatrice de le rencontrer pour un CFC d’informaticien.
+Un portfolio de candidature en français, clair et vivant, pour aider Roméo Paris à convaincre une entreprise formatrice de le rencontrer pour un CFC d’informaticien.
 
 ## What it enables
 
@@ -18,7 +18,7 @@ Entreprises formatrices, recruteurs, responsables de stage et équipes informati
 
 ## What exists today
 
-Accueil avec objectif professionnel, photo de Roméo, actions vers le parcours, CV et contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Section « Mon premier projet personnel » expliquant la création, les outils, les tests et la mise en ligne de romeoparis.ch. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Téléchargement du CV PDF le plus récent et coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et commandes fléchées ou WASD. - Liens et contrôles interactifs avec états de survol visibles.
+Accueil avec objectif professionnel, photo de Roméo et actions vers le parcours et le contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Section « Mon premier projet personnel » expliquant la création, les outils, les tests et la mise en ligne de romeoparis.ch. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et commandes fléchées ou WASD. - Liens et contrôles interactifs avec états de survol visibles.
 
 ## Brand commitments & durable constraints
 
@@ -35,15 +35,15 @@ Ne pas présenter Roméo comme développeur professionnel. Ne pas inventer de pr
 
 ## Positioning
 
-Un dossier de candidature en français, clair et vivant, pour aider Roméo Paris à convaincre une entreprise formatrice de le rencontrer pour un CFC d’informaticien.
+Un portfolio de candidature en français, clair et vivant, pour aider Roméo Paris à convaincre une entreprise formatrice de le rencontrer pour un CFC d’informaticien.
 
 ## Operating Context
 
-Responsive web, built unattended in one pass. Task mode: Operate.
+Responsive web, built unattended in one pass. Task mode: Experience.
 
 ## Evidence on Hand
 
-Accueil avec objectif professionnel, photo de Roméo, actions vers le parcours, CV et contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Section « Mon premier projet personnel » expliquant la création, les outils, les tests et la mise en ligne de romeoparis.ch. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Téléchargement du CV PDF le plus récent et coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et commandes fléchées ou WASD. - Liens et contrôles interactifs avec états de survol visibles.
+Accueil avec objectif professionnel, photo de Roméo et actions vers le parcours et le contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Section « Mon premier projet personnel » expliquant la création, les outils, les tests et la mise en ligne de romeoparis.ch. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et commandes fléchées ou WASD. - Liens et contrôles interactifs avec états de survol visibles.
 
 ## Product Principles
 

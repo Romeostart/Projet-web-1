@@ -4,7 +4,6 @@ import {
   ArrowUpRight,
   Check,
   Code2,
-  Download,
   ExternalLink,
   Mail,
   MapPin,
@@ -40,9 +39,6 @@ export default function Home() {
           <a href="#apropos">À propos</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a className="header-cv" href="/CV-Romeo-Paris.pdf" download="CV-Romeo-Paris.pdf">
-          CV <Download size={14} />
-        </a>
       </header>
 
       <section className="hero section-frame" id="accueil">
@@ -69,9 +65,6 @@ export default function Home() {
           <div className="hero-actions">
             <a className="primary-link" href="#parcours">
               Voir mon parcours <ArrowDownRight size={17} />
-            </a>
-            <a className="text-link" href="/CV-Romeo-Paris.pdf" download="CV-Romeo-Paris.pdf">
-              Télécharger mon CV <Download size={16} />
             </a>
             <a className="text-link" href="#contact">
               Échanger avec moi <ArrowUpRight size={16} />
@@ -255,19 +248,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="cv-section section-frame" id="cv">
-        <div className="cv-card">
-          <div>
-            <p className="eyebrow">Document de candidature</p>
-            <h2>Le parcours complet tient dans mon CV.</h2>
-            <p>Formation, expériences, coordonnées et projets réunis dans un document à télécharger.</p>
-          </div>
-          <a className="primary-link" href="/CV-Romeo-Paris.pdf" download="CV-Romeo-Paris.pdf">
-            Télécharger mon CV <Download size={17} />
-          </a>
-        </div>
-      </section>
-
       <section className="game-section section-frame" id="jeu">
         <div className="game-intro">
           <p className="eyebrow">04 / Démonstration</p>
@@ -315,9 +295,6 @@ export default function Home() {
           <a href="mailto:Romeo.paris321@gmail.com">E-mail</a>
           <a href="https://github.com/Romeostart" target="_blank" rel="noreferrer">
             GitHub
-          </a>
-          <a href="/CV-Romeo-Paris.pdf" download="CV-Romeo-Paris.pdf">
-            CV
           </a>
         </div>
         <span>© 2026 Roméo Paris</span>

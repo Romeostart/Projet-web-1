@@ -1,6 +1,6 @@
 ---
-name: "CV en ligne de Roméo Paris"
-description: "Un dossier de candidature en français, clair et vivant, pour aider Roméo Paris à convaincre une entreprise formatrice de le rencontrer pour un CFC d’informaticien."
+name: "Portfolio de Roméo Paris"
+description: "Un portfolio de candidature en français, clair et vivant, pour aider Roméo Paris à convaincre une entreprise formatrice de le rencontrer pour un CFC d’informaticien."
 colors:
   background: "oklch(0.985 0.006 145)"
   foreground: "oklch(0.2 0.035 155)"
