@@ -3,8 +3,9 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Roméo Paris — Futur apprenti informaticien",
-  description: "Le portfolio de Roméo Paris, 16 ans, candidat à un CFC d’informaticien en septembre 2027 dans la région de Fribourg.",
+  title: "romeoparis.ch — Roméo Paris",
+  description:
+    "Le portfolio de Roméo Paris, 16 ans, candidat à un CFC d’informaticien dans la région de Fribourg.",
 };
 
 export default function RootLayout({
