@@ -18,7 +18,7 @@ Entreprises formatrices, recruteurs, responsables de stage et équipes informati
 
 ## What exists today
 
-Accueil avec objectif professionnel, actions vers le parcours, CV et contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Téléchargement du CV PDF original et coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et statut de projet d’apprentissage. - Liens et contrôles interactifs avec états de survol visibles.
+Accueil avec objectif professionnel, photo de Roméo, actions vers le parcours, CV et contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Section « Mon premier projet personnel » expliquant la création, les outils, les tests et la mise en ligne de romeoparis.ch. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Téléchargement du CV PDF le plus récent et coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et commandes fléchées ou WASD. - Liens et contrôles interactifs avec états de survol visibles.
 
 ## Brand commitments & durable constraints
 
@@ -43,7 +43,7 @@ Responsive web, built unattended in one pass. Task mode: Operate.
 
 ## Evidence on Hand
 
-Accueil avec objectif professionnel, actions vers le parcours, CV et contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Téléchargement du CV PDF original et coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et statut de projet d’apprentissage. - Liens et contrôles interactifs avec états de survol visibles.
+Accueil avec objectif professionnel, photo de Roméo, actions vers le parcours, CV et contact, sans date d’entrée en CFC. - Section de recherche d’apprentissage avec six domaines d’intérêt : développement, systèmes, réseaux, support, automatisation, IA et cybersécurité. - Section « Mon premier projet personnel » expliquant la création, les outils, les tests et la mise en ligne de romeoparis.ch. - Parcours en trois étapes, motivation, présentation personnelle et valeurs de travail. - Bloc GitHub relié au profil réel de Roméo, avec ouverture externe et lien visible dans le footer. - Téléchargement du CV PDF le plus récent et coordonnées limitées à Bulle · Fribourg · Suisse. - Snake conservé comme petite démonstration interactive, avec passage à travers les murs et commandes fléchées ou WASD. - Liens et contrôles interactifs avec états de survol visibles.
 
 ## Product Principles
 

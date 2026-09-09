@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   ArrowDownRight,
   ArrowUpRight,
@@ -34,6 +35,7 @@ export default function Home() {
         </a>
         <nav className="site-nav" aria-label="Navigation principale">
           <a href="#recherche">Recherche</a>
+          <a href="#projet-personnel">Mon site</a>
           <a href="#parcours">Parcours</a>
           <a href="#apropos">À propos</a>
           <a href="#contact">Contact</a>
@@ -45,7 +47,18 @@ export default function Home() {
 
       <section className="hero section-frame" id="accueil">
         <div className="hero-copy">
-          <p className="eyebrow">Dossier de candidature</p>
+          <div className="hero-intro">
+            <p className="eyebrow">Dossier de candidature</p>
+            <figure className="hero-portrait">
+              <Image
+                src="/romeo-paris-portrait.jpg"
+                alt="Portrait de Roméo Paris"
+                width={180}
+                height={180}
+                priority
+              />
+            </figure>
+          </div>
           <h1>
             Je cherche où <em>continuer à apprendre.</em>
           </h1>
@@ -84,21 +97,6 @@ export default function Home() {
         </aside>
       </section>
 
-      <section className="signal-strip" aria-label="Résumé du profil">
-        <div>
-          <span className="signal-number">01</span>
-          <span>curieux et motivé</span>
-        </div>
-        <div>
-          <span className="signal-number">02</span>
-          <span>projets personnels</span>
-        </div>
-        <div>
-          <span className="signal-number">03</span>
-          <span>apprentissage honnête</span>
-        </div>
-      </section>
-
       <section className="focus-section section-frame" id="recherche">
         <div className="focus-grid">
           <div>
@@ -123,10 +121,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="personal-project-section section-frame" id="projet-personnel">
+        <div className="personal-project-grid">
+          <div>
+            <p className="eyebrow">01 / Projet personnel</p>
+            <h2>Mon premier projet personnel</h2>
+          </div>
+          <div className="personal-project-copy">
+            <p>
+              J’ai créé mon propre site internet pour découvrir comment fonctionne la création d’un site,
+              apprendre par moi-même et tester les outils actuels.
+            </p>
+            <p>
+              J’ai utilisé Claude.ai et ChatlyAI pour m’aider à créer le site, puis GitHub pour stocker et
+              gérer le code. J’ai ensuite connecté GitHub à Vercel pour mettre le site en ligne.
+            </p>
+            <p>
+              Après plusieurs modifications, j’ai testé le site sur ordinateur et téléphone pour vérifier
+              que tout fonctionnait correctement.
+            </p>
+            <p>
+              Pour finir, j’ai acheté le nom de domaine romeoparis.ch sur Infomaniak et je l’ai relié à
+              Vercel pour rendre mon site accessible en ligne.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="about-section section-frame" id="parcours">
         <div className="about-grid">
           <div>
-            <p className="eyebrow">01 / Parcours</p>
+            <p className="eyebrow">02 / Parcours</p>
             <h2>Un parcours qui m’a appris à être précis.</h2>
           </div>
           <div className="timeline">
@@ -182,7 +207,7 @@ export default function Home() {
       <section className="about-section about-profile section-frame" id="apropos">
         <div className="about-grid">
           <div>
-            <p className="eyebrow">02 / À propos</p>
+            <p className="eyebrow">03 / À propos</p>
             <h2>Quelqu’un de curieux, sociable et persévérant.</h2>
           </div>
           <div className="about-copy">
@@ -245,7 +270,7 @@ export default function Home() {
 
       <section className="game-section section-frame" id="jeu">
         <div className="game-intro">
-          <p className="eyebrow">03 / Démonstration</p>
+          <p className="eyebrow">04 / Démonstration</p>
           <h2>Un peu de distraction</h2>
           <p>J’ai ajouté ce jeu Snake pour rendre le portfolio un peu plus interactif.</p>
           <p className="project-status">Projet d’apprentissage · passage à travers les murs</p>
